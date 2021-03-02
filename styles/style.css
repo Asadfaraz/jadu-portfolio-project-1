@@ -1,0 +1,143 @@
+/* Body styles */
+body {
+  margin: 0px;
+  padding: 0px;
+  /* height: 110vh; */
+}
+
+.container {
+  background-color: rgb(235, 233, 233);
+}
+/* Navigation bar styles */
+nav {
+  background-color: #835af1;
+  height: 70px;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+/* Main Heading Text (Name) div style */
+#main-header {
+  width: 25%;
+}
+/* Main Heading in Head div style */
+#main-header h1 {
+  font-family: "Akaya Telivigala", cursive;
+  font-size: 40px;
+
+  margin-left: 50px;
+  padding: 10px;
+}
+/* Main links in navigation div styles */
+.main-links {
+  margin-right: 20px;
+  margin-left: auto;
+}
+.main-links ul {
+  display: flex;
+  justify-content: flex-end;
+
+  flex-wrap: wrap;
+}
+.main-links ul li {
+  margin-right: 40px;
+  list-style-type: none;
+
+  padding: 10px;
+}
+
+.main-links ul li:hover {
+  background-color: #6735f1;
+
+  border-radius: 10px;
+}
+
+/* a tag in navigation style */
+.nav-links {
+  text-decoration: none;
+  color: white;
+
+  font-size: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+/* ***************************************************************** */
+
+/* Middle section styling starts */
+.middle-section {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Heading 2 of Middle division */
+.mid-header h2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 35px;
+  margin-top: 50px;
+  margin-left: 50px;
+  line-height: 40px;
+
+  margin-bottom: 0px;
+}
+
+/* Division mid-list contain lists items */
+.mid-list ul {
+  margin-left: 80px;
+  font-size: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.mid-list ul li {
+  line-height: 35px;
+  color: darkslategray;
+}
+
+/* This division contain paragraph and contact links images */
+.mid-contact-links {
+  display: flex;
+  align-items: center;
+}
+
+/* You can find me paragraph style */
+.mid-contact-links p {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 50px;
+  margin-right: 30px;
+  color: darkslategray;
+}
+/* Contact images of twitter and Github */
+.mid-contact-links a img {
+  width: 45px;
+  margin-right: 25px;
+}
+
+/* Profile Image division style */
+.profile-image {
+  margin-left: auto;
+  margin-right: auto;
+  align-self: center;
+}
+
+/* Profile image in division */
+.profile-image img {
+  width: 200px;
+
+  border-radius: 100px;
+}
+
+/* ***************************************************************** */
+/* Footer Styling */
+footer {
+  background-color: #835af1;
+  height: 50px;
+  margin-top: 100px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+
+  color: white;
+
+  display: flex;
+  justify-content: center;
+}
+footer p {
+  margin-top: auto;
+  margin-bottom: auto;
+}
